@@ -1,0 +1,40 @@
+.SignInContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+    padding: 15px;
+    margin: 10px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.signin-form button {
+    background-color:#2980b9;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.signin-form button:hover {
+    background-color: #3498db;
+}
